@@ -116,13 +116,13 @@
 	<!-- Mobile Menu End -->
 	<!-- Header Area Start -->
 	<div class="header__area three">
-		<div class="top__bar-three">
+		<div class="top__bar-three d-none d-md-block">
 			<div class="custom_container">
 				<div class="row al-center">
 					<div class="col-md-8">
 						<div class="top__bar-left md-t-center">
 							<ul>
-								<li><a href="https://www.google.com/maps" target="_blank">
+								<li><a href="#" target="_blank">
 										<i class="fas fa-map-marker-alt"></i>226 Dixon St, Kitchener ON N2G 3E9
 									</a>
 								</li>
@@ -150,29 +150,31 @@
 					<div class="header__area-menubar">
 						<div class="header__area-menubar-left">
 							<div class="header__area-menubar-left-logo">
-								<a href="index.html"><img src="assets/img/logo-2.png" alt="logo"></a>
+								<a href="index.html">
+									<img src="assets/img/logo-2.png" alt="logo">
+								</a>
 							</div>
 						</div>
 						<div class="header__area-menubar-center">
 							<div class="header__area-menubar-center-menu">
 								<ul id="mobilemenu">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">About Us</a></li>
-									<li><a href="#">Services</a></li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="services.html">Services</a></li>
 									<li class="menu-item-has-children">
-										<a href="#">Products</a>
+										<a href="products.html">Products</a>
 										<ul class="sub-menu">
-											<li><a href="#">California Shutters</a></li>
-											<li><a href="#">Custom Draperies</a></li>
-											<li><a href="#">Outdoor Awnings</a></li>
-											<li><a href="#">Outdoor Screens</a></li>
-											<li><a href="#">Roller Shades</a></li>
-											<li><a href="#">Roman Shades</a></li>
-											<li><a href="#">Vertical Shades</a></li>
-											<li><a href="#">Zebra Blinds</a></li>
+											<li><a href="products.html/#CaliforniaShutters">California Shutters</a></li>
+											<li><a href="products.html/#CustomDraperies">Custom Draperies</a></li>
+											<li><a href="products.html/#OutdoorAwnings">Outdoor Awnings</a></li>
+											<li><a href="products.html/#OutdoorScreens">Outdoor Screens</a></li>
+											<li><a href="products.html/#RollerShades">Roller Shades</a></li>
+											<li><a href="products.html/#RomanShades">Roman Shades</a></li>
+											<li><a href="products.html/#VerticalShades">Vertical Shades</a></li>
+											<li><a href="products.html/#ZebraBlinds">Zebra Blinds</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Contact Us</a></li>
+									<li><a href="contact.html">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -337,11 +339,6 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 mt-25 ">
 					<div class="services__three-item">
-						<!--
-						<div class="services__three-item-image">
-							<img src="assets/img/services/services-1.jpg" alt="image">
-						</div>
-						-->
 						<div class="services__three-item-content">
 							<span>01</span>
 							<i class="flaticon-sales"></i>
@@ -353,14 +350,42 @@
 				</div>
 				<div class="col-lg-4 col-md-6 mt-25 ">
 					<div class="services__three-item">
-						<!--
-						<div class="services__three-item-image">
-							<img src="assets/img/services/services-2.jpg" alt="image">
-						</div>
-						-->
 						<div class="services__three-item-content">
 							<span>02</span>
+							<i class="flaticon-exploration"></i>
+							<h5><a href="services-details.html">Free Estimate</a></h5>
+							<p>Schedule your free estimate now for personalized window treatments tailored to your style and budget.</p>
+							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-25 ">
+					<div class="services__three-item">
+						<div class="services__three-item-content">
+							<span>03</span>
 							<i class="flaticon-coding-1"></i>
+							<h5><a href="services-details.html">Free Installation</a></h5>
+							<p>Enjoy hassle-free setup with our free installation service for all custom window treatments and blinds.</p>
+							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-25 ">
+					<div class="services__three-item">
+						<div class="services__three-item-content">
+							<span>04</span>
+							<i class="flaticon-technology-2"></i>
+							<h5><a href="services-details.html">Motorization</a></h5>
+							<p>Experience smart living with motorized blinds seamlessly integrated with Alexa and Somfy for voice control.</p>
+							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-25 ">
+					<div class="services__three-item">
+						<div class="services__three-item-content">
+							<span>05</span>
+							<i class="flaticon-solution-2"></i>
 							<h5><a href="services-details.html">Re-upholstery</a></h5>
 							<p>Re-upholstering your window coverings provides an economical way to update and renew their appearance.</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
@@ -369,16 +394,11 @@
 				</div>
 				<div class="col-lg-4 col-md-6 mt-25 ">
 					<div class="services__three-item">
-						<!--
-						<div class="services__three-item-image">
-							<img src="assets/img/services/services-4.jpg" alt="image">
-						</div>
-						-->
 						<div class="services__three-item-content">
-							<span>03</span>
-							<i class="flaticon-exploration"></i>
+							<span>06</span>
+							<i class="flaticon-high-quality"></i>
 							<h5><a href="services-details.html">Delivering excellence</a></h5>
-							<p>We ensure top-quality solutions and deliver unmatched excellence in every project</p>
+							<p>Delivering excellence through quality craftsmanship, reliable service, and innovative solutions tailored to your unique needs.</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
 					</div>
@@ -514,11 +534,43 @@
 						</div>
 						<div class="services__three-item-content">
 							<span>01</span>
-							<h5><a href="#">California Shutters</a></h5>
+							<h5><a href="#">Shutters</a></h5>
 							<p>
-								California Shutters are a stylish and durable window solution for homes and businesses. 
-								Our collection features classic wooden louvers that provide excellent light control, privacy, and insulation. 
+								Shutters are a stylish and durable window solution for homes and businesses.
+								Our collection features classic wooden louvers that provide excellent light control, privacy, and insulation.
 								Designed for timeless elegance, these interior shutters enhance any decor while offering long-lasting durability and energy efficiency.
+							</p>
+							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mt-25 ">
+					<div class="services__three-item">
+						<div class="services__three-item-image">
+							<img src="assets/img/products/RollerShades.webp" alt="image">
+						</div>
+						<div class="services__three-item-content">
+							<span>02</span>
+							<h5><a href="services-details.html">Shades</a></h5>
+							<p>
+								Shades combine modern style with effortless functionality, offering a sleek and versatile window covering solution. Designed for light control, privacy, and energy efficiency,
+								they are available in a variety of fabrics, colors, and opacities to complement any décor.
+							</p>
+							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mt-25 ">
+					<div class="services__three-item">
+						<div class="services__three-item-image">
+							<img src="assets/img/products/ZebraShades.webp" alt="image">
+						</div>
+						<div class="services__three-item-content">
+							<span>03</span>
+							<h5><a href="services-details.html">Blinds</a></h5>
+							<p>
+								Blinds offer a modern and stylish window treatment with alternating sheer and opaque fabric layers. Their innovative design allows for precise light control,
+								privacy, and a soft, diffused glow, making them a perfect blend of elegance and functionality.
 							</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
@@ -530,10 +582,12 @@
 							<img src="assets/img/products/CustomDraper.webp" alt="image">
 						</div>
 						<div class="services__three-item-content">
-							<span>02</span>
-							<h5><a href="#">Custom Draperies</a></h5>
-							<p>Custom Draperies add elegance and functionality to any space. Our collection includes luxurious fabrics, tailored designs, and precise craftsmanship to match your unique style. 
-							Designed for light control, privacy, and insulation, our draperies enhance interiors with timeless beauty and personalized comfort.</p>
+							<span>04</span>
+							<h5><a href="#">Draperies</a></h5>
+							<p>
+								Custom Draperies add elegance and functionality to any space. Our collection includes luxurious fabrics, tailored designs, and precise craftsmanship to match your unique style.
+								Designed for light control, privacy, and insulation, our draperies enhance interiors with timeless beauty and personalized comfort.
+							</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
 					</div>
@@ -544,10 +598,12 @@
 							<img src="assets/img/products/OutdoorAwing.webp" alt="image">
 						</div>
 						<div class="services__three-item-content">
-							<span>03</span>
-							<h5><a href="services-details.html">Outdoor Awnings</a></h5>
-							<p>Enhance your outdoor spaces with stylish and functional awnings. Designed to provide shade, UV protection, and energy efficiency, our outdoor awnings help create a cool, 
-							comfortable, and visually appealing environment while extending the life of your outdoor furniture.</p>
+							<span>05</span>
+							<h5><a href="services-details.html">Awnings</a></h5>
+							<p>
+								Enhance your outdoor spaces with stylish and functional awnings. Designed to provide shade, UV protection, and energy efficiency, our outdoor awnings help create a cool,
+								comfortable, and visually appealing environment while extending the life of your outdoor furniture.
+							</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
 					</div>
@@ -558,38 +614,12 @@
 							<img src="assets/img/products/OutdoorScreen.webp" alt="image">
 						</div>
 						<div class="services__three-item-content">
-							<span>04</span>
-							<h5><a href="services-details.html">Outdoor Screens</a></h5>
-							<p>Outdoor screens offer protection and privacy while enhancing airflow and comfort. Designed to block harsh sunlight, reduce glare, and keep insects out, 
-							they provide a stylish and practical solution for windows, patios, and outdoor spaces.</p>
-							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 mt-25 ">
-					<div class="services__three-item">
-						<div class="services__three-item-image">
-							<img src="assets/img/products/RollerShades.webp" alt="image">
-						</div>
-						<div class="services__three-item-content">
-							<span>05</span>
-							<h5><a href="services-details.html">Roller Shades</a></h5>
-							<p>Roller Shades combine modern style with effortless functionality, offering a sleek and versatile window covering solution. Designed for light control, privacy, and energy efficiency, 
-							they are available in a variety of fabrics, colors, and opacities to complement any décor.</p>
-							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 mt-25 ">
-					<div class="services__three-item">
-						<div class="services__three-item-image">
-							<img src="assets/img/products/RomanShades.jpg" alt="image">
-						</div>
-						<div class="services__three-item-content">
 							<span>06</span>
-							<h5><a href="services-details.html">Roman Shades</a></h5>
-							<p>Roman Shades add a touch of elegance and sophistication to any space with their soft, tailored folds. Combining the beauty of drapery with the functionality of shades, 
-							they offer versatile light control, privacy, and insulation while enhancing your décor with a timeless appeal.</p>
+							<h5><a href="services-details.html">Screens</a></h5>
+							<p>
+								Outdoor screens offer protection and privacy while enhancing airflow and comfort. Designed to block harsh sunlight, reduce glare, and keep insects out,
+								they provide a stylish and practical solution for windows, patios, and outdoor spaces.
+							</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
 					</div>
@@ -597,13 +627,15 @@
 				<div class="col-lg-3 col-md-6 mt-25 ">
 					<div class="services__three-item">
 						<div class="services__three-item-image">
-							<img src="assets/img/products/VerticalShades.webp" alt="image">
+							<img src="assets/img/products/motorization.png" alt="image">
 						</div>
 						<div class="services__three-item-content">
 							<span>07</span>
-							<h5><a href="services-details.html">Vertical Shades</a></h5>
-							<p>Vertical Shades offer a sleek and functional window solution, perfect for large windows and sliding doors. Their versatile design and smooth operation 
-							provide excellent light control, privacy, and energy efficiency, making them a stylish and practical choice for any space.</p>
+							<h5><a href="services-details.html">Motorization</a></h5>
+							<p>
+								Experience the ultimate convenience with motorized window treatments powered by Alexa and Somfy. Control your blinds effortlessly with voice commands or remote, 
+								blending smart technology with elegant design for modern living.
+							</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
 					</div>
@@ -611,13 +643,15 @@
 				<div class="col-lg-3 col-md-6 mt-25 ">
 					<div class="services__three-item">
 						<div class="services__three-item-image">
-							<img src="assets/img/products/ZebraShades.webp" alt="image">
+							<img src="assets/img/products/commercial.png" alt="image">
 						</div>
 						<div class="services__three-item-content">
 							<span>08</span>
-							<h5><a href="services-details.html">Zebra Blinds</a></h5>
-							<p>Zebra Blinds offer a modern and stylish window treatment with alternating sheer and opaque fabric layers. Their innovative design allows for precise light control, 
-							privacy, and a soft, diffused glow, making them a perfect blend of elegance and functionality.</p>
+							<h5><a href="services-details.html">Commercial</a></h5>
+							<p>
+								Our commercial window treatment solutions offer durability, style, and energy efficiency. Perfect for offices, hotels, and retail spaces, we deliver tailored designs 
+								that enhance aesthetics while meeting functional and regulatory requirements.
+							</p>
 							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
 						</div>
 					</div>
